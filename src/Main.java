@@ -3,9 +3,9 @@ public class Main{
 
         Vista vista = new Vista();
         Modelo modelo = new Modelo();
-        Controlador controlador = new Controlador();
+        Controlador controlador = new Controlador(modelo, vista);
 
         System.out.println("\n==========Registro de Tareas==========\n");
-
+        controlador.opcionesPrograma();
     }
 }

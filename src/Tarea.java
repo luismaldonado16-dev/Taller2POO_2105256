@@ -20,4 +20,8 @@ public class Tarea {
     public boolean getCompletado(){
         return this.completada;
     }
+
+    public void completarTarea(){
+        this.completada = true;
+    }
 }
