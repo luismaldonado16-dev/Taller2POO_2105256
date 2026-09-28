@@ -22,7 +22,7 @@ public class Modelo {
             System.out.println("Tarea #" + i + "\n");
             System.out.println("Titulo: " + tarea.getTitulo());
             System.out.println("Descripcion: " + tarea.getDescripcion());
-            System.out.println("Estatus: " + tarea.getCompletado());
+            System.out.println("Completado: " + tarea.getCompletado());
             System.out.println("-------------------------------------------------\n");
             i++;
         }
