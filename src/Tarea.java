@@ -9,15 +9,15 @@ public class Tarea {
         this.completada = false;
     }
 
-    private String getTitulo(){
+    public String getTitulo(){
         return this.titulo;
     }
 
-    private String getDescripcion(){
+    public String getDescripcion(){
         return this.descripcionCorta;
     }
 
-    private boolean getCompletado(){
+    public boolean getCompletado(){
         return this.completada;
     }
 }
